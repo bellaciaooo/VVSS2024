@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="178.0" y="391.0">netscape</node>
+    <node x="657.0" y="317.0">META-INF</node>
+    <node x="178.0" y="465.0">javafx</node>
+    <node x="516.0" y="539.0">org</node>
+    <node x="-90.5" y="539.0">pizzashop.controller</node>
+    <node x="-69.5" y="613.0">pizzashop.gui</node>
+    <node x="378.0" y="391.0">images</node>
+    <node x="-1.0" y="355.5">pizzashop.Main</node>
+    <node x="532.0" y="465.0">impl</node>
+    <node x="178.0" y="317.0">groovyjarjarasm</node>
+    <node x="357.0" y="465.0">javax</node>
+    <node x="703.0" y="465.0">fxml</node>
+    <node x="373.0" y="-50.0">toolbarButtonGraphics</node>
+    <node x="178.0" y="169.0">groovyjarjarpicocli</node>
+    <node x="567.0" y="391.0">groovy</node>
+    <node x="431.0" y="243.0">groovyjarjarantlr</node>
+    <node x="-80.0" y="169.0">pizzashop.model</node>
+    <node x="178.0" y="613.0">jdk</node>
+    <node x="128.5" y="243.0">pizzashop.repository</node>
+    <node x="348.0" y="539.0">java</node>
+    <node x="178.0" y="539.0">com</node>
+    <node x="681.0" y="539.0">sun</node>
+    <node x="-117.0" y="243.0">pizzashop.service</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.3441011235955056" showDependencies="false" x="218.00000000000006" y="306.0" />
+  <SelectedNodes>
+    <node>pizzashop.service</node>
+    <node>pizzashop.repository</node>
+    <node>pizzashop.controller</node>
+    <node>pizzashop.model</node>
+    <node>pizzashop.gui</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
