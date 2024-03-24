@@ -1,0 +1,29 @@
+
+p
+java:S3740"/Provide the parametrized type for this generic.(İÈ«ğÿÿÿÿÿJ$c1fb73a8-c708-4f47-9b01-7fefc28296d9
+i
+java:S1604!"(Make this anonymous inner class a lambda(ôâŠûıÿÿÿÿJ$abd0cf52-8fe5-4b9d-be76-a17475ae95be
+d
+java:S1604"(Make this anonymous inner class a lambda(„­Ÿ³J$28b210a2-1327-4489-bb71-beb83b879f36
+’
+java:S1104"QMake order a static final constant or non-public and provide accessors if needed.(èÊçÀùÿÿÿÿJ$d3f221e3-8864-4516-a52f-cd11e1990906
+‘
+java:S1104"UMake addOrders a static final constant or non-public and provide accessors if needed.(„­Ÿ³J$29fa19bc-788b-46a9-bde0-e32597402c4f
+l
+java:S1444"+Make this "public static order" field final(èÊçÀùÿÿÿÿJ$d9419da8-dfdd-4270-b851-95bece28b532
+c
+java:S2189 ""Add an end condition to this loop.(˜ïˆÿÿÿÿÿJ$781c0518-4c20-4e23-a0f8-5a69c1d58e9d
+•
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿJ$94f69c6d-03eb-4be5-9126-8d4ba6416120
+^
+java:S2386"Make this member "protected".(èÊçÀùÿÿÿÿJ$a18d5cde-4c79-4956-b761-63f1b59a6b6a
+a
+java:S2129" Remove this "String" constructor(“×ŞúÿÿÿÿJ$3b1359f1-c2f9-4a97-92ba-b56ba2370fd7
+Ÿ
+java:S2142)"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿJ$725e035f-c6ea-4939-9fd5-69ee1abecb35
+k	java:S106?"+Replace this use of System.out by a logger.(ÔÈúâøÿÿÿÿJ$830f0945-5e12-4eda-b012-50e3312daafe
+f	java:S106K"+Replace this use of System.out by a logger.(ú•€ËJ$8900a5f3-4653-46b8-824a-2a04725e7911
+k	java:S106L"+Replace this use of System.out by a logger.(‡±§­üÿÿÿÿJ$3c3efeb6-3a60-4d98-b231-26416788fdb7
+f	java:S106M"+Replace this use of System.out by a logger.(ú•€ËJ$ead06904-12d9-49fa-a3b7-ff1f0e58e859
+f	java:S106O"+Replace this use of System.out by a logger.(‰ó·»J$8f5744f1-323c-430f-8bb4-efcbd1e61250
+k	java:S106S"+Replace this use of System.out by a logger.(ÔÈúâøÿÿÿÿJ$9a77ed02-f922-44ae-8b55-08ac94631ca5

@@ -1,0 +1,24 @@
+
+w
+java:S3740*"/Provide the parametrized type for this generic.(†÷Ößÿÿÿÿÿ8’Ë¯“ä1J$5ee5b1da-964c-4013-b570-487d26ed3c66
+r
+java:S3740+"/Provide the parametrized type for this generic.(Œ°Éë8’Ë¯“ä1J$183c0f9a-ed92-49db-8bd4-b95f643fc9e0
+k
+java:S1604+"(Make this anonymous inner class a lambda(Œ°Éë8”Ë¯“ä1J$10c2c9ca-8add-4e76-959e-a2821b6ad234
+|
+java:S1854+"9Remove this useless assignment to local variable "event".(Œ°Éë8øÓ³“ä1J$b33eef8b-50a8-4274-ae51-a16e47b24c79
+‚
+java:S1854*":Remove this useless assignment to local variable "event2".(†÷Ößÿÿÿÿÿ8Ğ•±“ä1J$ae07032b-0ce6-4752-bf3c-cdd6d5d49790
+‚
+java:S1854)":Remove this useless assignment to local variable "number".(Õçøÿÿÿÿ8±Ë¯“ä1J$bec2f3e5-5ed3-4751-a39c-1c64e111ba89
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ğ£ë®ıÿÿÿÿ8¾Ë¯“ä1J$63cc3cbc-9f2d-4404-8819-0ecf93d62765
+s
+java:S1481)"+Remove this unused "number" local variable.(Õçøÿÿÿÿ8ÈË¯“ä1J$f86eb40f-a001-4b5c-86ec-d52698223253
+ƒ
+java:S1612*";Replace this lambda with method reference 'Event::consume'.(†÷Ößÿÿÿÿÿ8ÌË¯“ä1J$e15cbcae-ec53-4e5c-86c4-da9d8857bf32
+s
+java:S1481*"+Remove this unused "event2" local variable.(†÷Ößÿÿÿÿÿ8â•±“ä1J$8bc67e32-c7ae-4881-8716-11882a5272be
+m
+java:S1481+"*Remove this unused "event" local variable.(Œ°Éë8‹Ô³“ä1J$31d84cf5-e4ca-45b7-9c53-65c48cb51557
+ƒ
+java:S16123";Replace this lambda with method reference 'Event::consume'.(ÿ¥Ìúÿÿÿÿ8‹Ô³“ä1J$0014101f-1817-4e79-88c6-e9227fb548ae
