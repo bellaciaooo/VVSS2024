@@ -1,5 +1,6 @@
 package pizzashop.service;
 
+import pizzashop.exception.PizzaPaymentException;
 import pizzashop.model.MenuDataModel;
 import pizzashop.model.Payment;
 import pizzashop.model.PaymentType;
@@ -24,6 +25,10 @@ public class PaymentService {
 
     public void addPayment(int table, PaymentType type, double amount){
         Payment payment= new Payment(table, type, amount);
+        if (table < 1 || table > 8)
+            throw new PizzaPaymentException("Table number must be in [1,8]");
+        if (amount <= 0)
+            throw new PizzaPaymentException("Amount should be greater than 0");
         payRepo.add(payment);
     }
 
