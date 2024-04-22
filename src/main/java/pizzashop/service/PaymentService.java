@@ -33,14 +33,19 @@ public class PaymentService {
     }
 
     public double getTotalAmount(PaymentType type){
-        double total=0.0f;
+        double total = 0.0f;                 //1
         List<Payment> l=getPayments();
-        if ((l==null) ||(l.size()==0)) return total;
-        for (Payment p:l){
-            if (p.getType().equals(type))
-                total+=p.getAmount();
-        }
-        return total;
-    }
+        if(type == null)                     //2
+            return total;                    //3
+        if (l == null)                       //4
+            return total;                    //5
+        if (l.size() == 0)                   //6
+            return total;                    //7
+        for (Payment p:l){                   //8
+            if (p.getType().equals(type))    //9
+                total+=p.getAmount();        //10
+        }                                    //11
+        return total;                        //12
+    }                                        //13
 
 }

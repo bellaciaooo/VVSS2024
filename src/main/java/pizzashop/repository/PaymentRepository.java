@@ -16,6 +16,9 @@ public class PaymentRepository {
         this.paymentList = new ArrayList<>();
         readPayments();
     }
+    public void clear() {
+        paymentList.clear();
+    }
 
     private void readPayments(){
         //ClassLoader classLoader = PaymentRepository.class.getClassLoader();

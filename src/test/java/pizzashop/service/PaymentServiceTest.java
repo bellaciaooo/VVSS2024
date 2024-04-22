@@ -110,4 +110,5 @@ class PaymentServiceTest {
 
         assertEquals(cashAmountBefore + amount, cashAmountAfter);
     }
+
 }
