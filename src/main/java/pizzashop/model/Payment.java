@@ -35,6 +35,10 @@ public class Payment {
         this.amount = amount;
     }
 
+    public Payment getPayment(){
+        return new Payment(2,PaymentType.Cash,12);
+    }
+
     @Override
     public String toString() {
         return tableNumber + ","+type +"," + amount;

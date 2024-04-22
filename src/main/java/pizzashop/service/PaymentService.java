@@ -32,6 +32,10 @@ public class PaymentService {
         payRepo.add(payment);
     }
 
+    public void addPayment(Payment payment){
+        payRepo.add(payment);
+    }
+
     public double getTotalAmount(PaymentType type){
         double total = 0.0f;                 //1
         List<Payment> l=getPayments();
