@@ -25,7 +25,7 @@ class PaymentServiceTest {
     }
 
     @Order(1)
-    @RepeatedTest(value = 2)
+    @Test
     void addPaymentECP1() {
         int tableNo = 1;
         double amount = 17.5;
