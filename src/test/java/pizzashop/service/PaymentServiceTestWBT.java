@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.validator.PaymentValidator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,7 +15,7 @@ class PaymentServiceTestWBT {
 
     @BeforeEach
     void setUp() {
-        PaymentRepository repopay = new PaymentRepository();
+        PaymentRepository repopay = new PaymentRepository(new PaymentValidator());
         MenuRepository repomenu = new MenuRepository();
         repopay.clear();
         srv = new PaymentService(repomenu,repopay);

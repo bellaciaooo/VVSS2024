@@ -5,6 +5,7 @@ import pizzashop.exception.PizzaPaymentException;
 import pizzashop.model.PaymentType;
 import pizzashop.repository.MenuRepository;
 import pizzashop.repository.PaymentRepository;
+import pizzashop.validator.PaymentValidator;
 
 import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -13,7 +14,7 @@ class PaymentServiceTest {
 
     @BeforeEach
     void setUp() {
-        PaymentRepository paymentRepositoryTest = new PaymentRepository();
+        PaymentRepository paymentRepositoryTest = new PaymentRepository(new PaymentValidator());
         MenuRepository menuRepositoryTest = new MenuRepository();
         serviceTest = new PaymentService(menuRepositoryTest, paymentRepositoryTest);
     }
